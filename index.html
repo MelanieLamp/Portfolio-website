@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<php>
+<html>
+	<head>
+		<title>Melanie Lamp</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header class="major">
+					<br/></br></br>
+					<h2>Melanie Lamp</h2>					
+					<img src="images/pic07.jpg" width="160" height="210"></br>
+					My name is Melanie Lamp and I graduated from Edmonds College in June 2020 with an<br/>
+					Associates of Science degree and a C/C++ Developer Certificate. I transfered to 
+					Edmonds College</br> after years of analyzing research at Central Washington
+					University.  This is my professional portfolio</br> where I intend to upload projects 
+					and reports. Feel free to visit the projects page to check out more!</br></br></br></br>
+				</header>
+				<div class="container">
+					<ul class="actions special">
+						<br/>
+						<li><a href="#one" class="button primary scrolly">About Me</a></li>
+						<li><a href="#three" class="button primary scrolly">Projects</a></li>
+						<li><a href="#footer" class="button primary scrolly">Contact</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>About Me</h2>
+						</header>
+						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span><br\>I started my undergraduate career in programming working 
+							on UX interfaces for websites with HTML, CSS and JavaScript. <br\>I was put in charge of programming the 
+							functionality behind calculating and recording customer orders for online sales of snow cones and beverage transactions. 
+						    I became interested in studying object-oriented programming concepts and<br\> I collaborated with my peers on my Java development team 
+							to reserve and store booking accomodations and daily travel arrangements for cruise line companies.<br\>							
+							Using the knowledge I gained from practicing Java concepts at the University of North Georgia, I dove head first into exploring other languages like Python, C# and VB.NET.
+							<br\>It was at this point I began designing my first video game project called, Rush Hour Turtle. <br/><br/>The game was a collaborative effort 
+							and primarily consists of turtles crossing highways while avoiding deadly obstacles such as cars and alligators. It was deployed 
+							using an SQLite3 backend database to collect and store player scores.<br\> Rush Hour Turtle was inspired by the classic 1981 Frogger game and was awarded 
+							first place in the Computer Science departments' 2019 Computer Game Development competition.  
+						</p><br/>					
+					</div>
+					<a href="#header" class="goto-prev scrolly button">Back</a>
+					<a href="#three" class="button primary scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main">
+				<div class="container">
+					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>My Projects</h2>
+						</header>
+						<section>
+							<!--Project#1-->
+							<header>
+							<h4><a href="https://github.com/Melifex/AVL-Implementation.git">AVL Tree Implementation</a></h4>
+								<p>Coding Language and Tools: C/C++, Visual Studio Code</p>
+							</header>
+							<p>I developed Node and HashMap classes that were later implemented into an automatic height-balancing binary search tree structure. The application generates a generic key-value pair for inserted values and contains them in a linked list.</p>
+							
+							<!--Project#2-->
+							<header>
+							<h4><a href="https://github.com/Melifex/Rush-Hour-Turtle.git">Rush Hour Turtle</a></h4>
+								<p>Coding Language and Tools: VB.NET, Visual Studio IDE, SQLite3</p>
+							</header>
+							<p>I collaborated alongside development team to design and build a video game consisting of turtles crossing highways while avoiding deadly obstacles such as cars and alligators. The game was deployed using an SQLite3 backend to collect and store player scores.</p>
+							
+							<!--Project#3-->
+							<header>
+							<h4><a href="https://github.com/Melifex/Dice-Simulation.git">Dice Simulator</a></h4>
+								<p>Coding Language and Tools: C#, Microsoft Visual Studio IDE</p>
+							</header>
+							<p>This application simulates the probability rolling of two six-sided dice by calculating and displaying the frequencies and percentages of each die after each successive roll. A Die class is used to simulate a random roll of the dice and the images of the corresponding dice are shown.</p>
+
+						</br></section><center>
+					<a href="#one" class="goto-prev scrolly button">Back</a>
+					<a href="#footer" class="button primary scrolly">Next</a>
+				</center></div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<header class="major">
+						<h2>Contact Me</h2>
+					</header>
+					<ul class="icons">
+						<li><a href="https://github.com/Melifex" class="icon brands alt fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/melanie-lamp/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.snapchat.com/add/moraedifex" class="icon brands alt fa-snapchat"><span class="label">Snapchat</span></a></li>
+						<li><a href="https://twitter.com/Moreadifex" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					</ul>
+					<h4 class="sent-notification"></h4>
+					<form id = "myForm" action="sendEmail.php" method="POST">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall"><input type="text" id="name" placeholder="Name " /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" id="email" placeholder="Email " /></div>
+							<div class="col-6 col-12"><input type="text" id="subject" placeholder="Subject" /></div>
+							<div class="col-12"><textarea id="body" placeholder="Send a Message" rows="4"></textarea></div>
+							<div class="col-12">
+								<liclass="actions">
+									<input type="button" style="height:60px;" onclick="sendEmail()" class="primary" value="Send An Email"/>
+									<input type="reset" value="reset"/></li>
+							</div>
+						</div>
+					</form>
+					<a href="#header" class="goto-prev scrolly button">Back to Top</a>
+				</div>
+
+				<footer>
+					<ul class="copyright">
+						<li>&copy;Melifex.github.io</li>
+						<li>Generated by Melanie Lamp using HTMLUP</li>
+						<li>&copy;namecheap hosting</li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Scripts -->
+		<script language="JavaScript"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>	
+
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"></script>
+
+		
+			<script type="text/javascript">
+				function sendEmail() {
+					var name = $("#name");
+					var email = $("#email");
+					var subject = $("#subject");
+					var body = $("#body");
+
+					if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+						$.ajax({
+						url: 'sendEmail.php',
+						method: 'POST',
+						dataType: 'json',
+						data: {
+							name: name.val(),
+							email: email.val(),
+							subject: subject.val(),
+							body: body.val()
+						}, success: function (response) {
+								$('#myForm')[0].reset();
+								$('.sent-notification').text("Message has successfully been sent!");
+						}
+						});
+					}
+				}
+
+				function isNotEmpty(caller) {
+					if (caller.val() == "") {
+						caller.css('border', '1px solid red');
+						return false;
+					} else
+						caller.css('border', '');
+
+					return true;
+				}
+			</script>
+	</body>
+</html>
