@@ -1,4 +1,5 @@
 # Portfolio website
- My published portfolio that I use to showcase my projects.
+I created a portfolio website to showcase some projects I've been working on. It's currently being powered through namecheap as a dynamic website. 
+I often post new projects and updates to my portfolio so feel free to visit and check out more!
  
  Website is Live at: https://melanielamp.me/
